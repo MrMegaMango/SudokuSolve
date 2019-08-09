@@ -1,13 +1,7 @@
 def sudoku_solve(board):
-#def solveSudoku(self, board: List[List[str]]) -> None:
-    """
-    Do not return anything, modify board in-place instead.
-    """
     board=solve(board)
     return board
-    #thought: lay out all the potential for each block in list, reduce from the smallest list and backtrack
 
-    #thought: 
 def solve(board):
     #print(board)
     for i in range (9):
